@@ -1,0 +1,36 @@
+*{
+    background-color: aqua;
+    
+}
+
+.titulo{
+    background-color: red ;
+    padding: 20px;
+    margin: 70px auto;
+    border: 2px solid black; 
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+.ul,h2{
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+

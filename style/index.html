@@ -3,43 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Curriculum</title>
+    <title>Formulario</title>
 </head>
-<h2>Presentacion</h2>
-<img src="https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg" alt="Messi" width="100">
-<h1>Lionel Messi</h1>
-<ul>
-    <li>Edad:36</li>
-    <li>Correo:LeonelMessi10@gmail.com </li>
-    <li>Pais procedente: Argentina</li>
-    <li>Provincia:Rosario</li>
-    <li>Telefono:1154578845</li>
-    <li>Red Social: <a href=https://www.instagram.com/leomessi/ target="_blank" rel=>leomessi</a>></a></li>
-
-</ul>
-<h2>Informacion de estudios</h2>
-<ul>
-    <li>Escuela o Universidad: <strong>Ciudad Universiataria</strong></li>
-    <li>Carrera: <em>Diseño Industrial</em></li>
-    <li>Comienzo de cursada: 2023</li>
-    <li>Duracion de cursada: 6 años</li>
-
-</ul>
-<h2>Experiencia Laboral</h2>
-
-
-
-
-<link rel="stylesheet"style="text/css" href="style/Estilos.css">
-
-
-
-
-
-
-
-
 <body>
-    
+    <h1>Rellena tu CV</h1>
+    <form action="https://formspree.io/f/mbjnzraa" method="post"> 
+        <label>Nombre:</label>
+        <input type="text" placeholder="Nombre" name="Nombre">
+        <br>
+        <br>
+        <label>Apellido</label>
+        <input type="text" placeholder="Apellido" name="Apellido">
+        <br><br>
+        <label>Contraseña:</label>
+        <input type="password" placeholder="Password" name="Contraseña" required>
+        <br>
+        <br>
+        <label>Edad:</label>
+        <input type="number" placeholder="Numero" name="Edad">
+        <br>
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="Email" name="Email" required>
+        <br>
+        <br>
+        <label>Fecha de nacimiento:</label>
+        <input type="date" name="Fecha de nacimiento">
+        <br>
+        <br>
+        <label>DNI:</label>
+        <input type="number" placeholder="Numero" name="DNI" required>
+        <br>
+        <br>
+        <label>Incluir tu foto:</label>
+        <input type="file" name="Archivo de foto del usuario" required>
+        <br><br>
+        <h3>Sexo</h3>
+        <input type="radio" name="sexo">Masculino
+        <br>
+        <input type="radio" name="sexo">Femenino
+        <br>
+        <input type="radio" name="sexo">Otro
+        <br><br>
+        <h3>Terminos</h3>
+        <input type="checkbox">Suscribirme al boletin de novedades
+        <br><br>
+        <button type="button">Guardar cambios</button>
+        <button type="submit">Enviar formulario</button>
+        
+        
+
+
+        
+
+
 </body>
 </html>
